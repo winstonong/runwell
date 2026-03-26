@@ -18,7 +18,7 @@ const comparisonData = {
     { label: "Risk", value: "What if it doesn't work out?" },
   ],
   runwell: [
-    { label: "Cost", value: "Flexible hourly/monthly" },
+    { label: "Cost", value: "$4–$8/hr" },
     { label: "Benefits", value: "No overhead" },
     { label: "Start Time", value: "Matched in 48 hours" },
     { label: "Training", value: "Pre-trained on core tools" },
@@ -75,9 +75,9 @@ export default function VariantB() {
               Grow Your Team Without Growing Your Payroll
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
-              Runwell gives you trained virtual assistants on demand — flexible
-              hours, no contracts, no HR headaches. Scale up or down as your
-              business needs change.
+              Runwell gives you trained virtual assistants from just $4–$8/hr
+              — flexible hours, no contracts, no HR headaches. Scale up or down
+              as your business needs change.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="See Flexible Plans" bgColor={FOREST} />
@@ -228,7 +228,7 @@ export default function VariantB() {
             Flexible Support That Grows With You
           </h2>
           <p className="text-lg text-white/80 mb-8">
-            No contracts. No minimums. Just reliable help when you need it.
+            No contracts. No minimums. Just reliable help from $4–$8/hr.
           </p>
           <CTAButton text="Get Started Today" bgColor={TEAL} />
         </div>

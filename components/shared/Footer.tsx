@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <span className="font-heading text-xl font-bold text-white">Runwell</span>
             <p className="mt-3 text-sm leading-relaxed">
-              Trained virtual assistants that help you reclaim your time and scale your business.
+              Trained virtual assistants from $4–$8/hr that help you reclaim your time and scale your business.
             </p>
           </div>
           <div>

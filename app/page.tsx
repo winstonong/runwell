@@ -44,9 +44,9 @@ export default function Home() {
             Virtual Assistants That Keep Things Running Well
           </h1>
           <p className="mt-6 text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Explore three different approaches to how Runwell can help your
-            business with admin support, email management, scheduling, data
-            entry, and research.
+            Trained virtual assistants from $4–$8/hr. Explore three
+            approaches to how Runwell can help with admin support, email
+            management, scheduling, data entry, and research.
           </p>
         </div>
       </section>

@@ -106,8 +106,8 @@ export default function VariantA() {
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
               Runwell virtual assistants handle your admin, email, scheduling,
-              and data entry — so you can focus on the work that actually moves
-              the needle.
+              and data entry — starting at just $4–$8/hr — so you can focus on
+              the work that actually moves the needle.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="Get Your Time Back" bgColor={AMBER} />
@@ -234,8 +234,8 @@ export default function VariantA() {
             Your To-Do List Won&apos;t Shrink Itself
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Book a free consultation and see how a Runwell VA can give you back
-            20+ hours a week.
+            Starting at $4–$8/hr, a Runwell VA can give you back 20+ hours
+            a week. Book a free consultation today.
           </p>
           <CTAButton text="Reclaim Your Calendar" bgColor={AMBER} />
         </div>

@@ -85,8 +85,8 @@ export default function VariantC() {
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
               Every Runwell VA is rigorously vetted, trained to your standards,
-              and backed by our quality guarantee. No more chasing freelancers
-              or fixing mistakes.
+              and backed by our quality guarantee — from just $4–$8/hr. No more
+              chasing freelancers or fixing mistakes.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="Meet Our Standard" bgColor={NAVY} />
@@ -228,8 +228,8 @@ export default function VariantC() {
             Quality You Can Count On. Every Single Day.
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Book a call to learn how Runwell&apos;s vetted assistants deliver
-            work you never have to double-check.
+            From $4–$8/hr. Book a call to learn how Runwell&apos;s vetted
+            assistants deliver work you never have to double-check.
           </p>
           <CTAButton text="Book a Quality Consultation" bgColor={GOLD} />
         </div>
