@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CTAButton from "@/components/shared/CTAButton";
 import SectionHeading from "@/components/shared/SectionHeading";
 import SplitSection from "@/components/shared/SplitSection";
@@ -32,24 +33,28 @@ const services = [
     description:
       "From document formatting to travel booking, your VA handles the operational details that keep your business running smoothly.",
     placeholder: "Admin Support",
+    image: "/images/admin.jpg",
   },
   {
     title: "Email Management",
     description:
       "Triage, draft responses, flag priorities. Your inbox becomes a tool again, not a time sink.",
     placeholder: "Email Management",
+    image: "/images/email.jpg",
   },
   {
     title: "Scheduling & Calendar",
     description:
       "Your VA coordinates meetings across time zones, sends reminders, and protects your focus blocks.",
     placeholder: "Scheduling",
+    image: "/images/scheduling.jpg",
   },
   {
     title: "Research & Data Entry",
     description:
       "Market research, CRM updates, spreadsheet management — done accurately, done fast.",
     placeholder: "Research & Data",
+    image: "/images/research.jpg",
   },
 ];
 
@@ -110,11 +115,15 @@ export default function VariantA() {
             </div>
           </div>
           <div className="flex-1">
-            <div
-              className="w-full aspect-square max-w-md mx-auto rounded-3xl flex items-center justify-center text-lg font-medium"
-              style={{ backgroundColor: `${ACCENT}10`, color: ACCENT }}
-            >
-              Founder at a clean desk
+            <div className="w-full aspect-square max-w-md mx-auto rounded-3xl overflow-hidden relative">
+              <Image
+                src="/images/hero-v1.jpg"
+                alt="Virtual assistant at work"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
+              />
             </div>
           </div>
         </div>
@@ -160,6 +169,7 @@ export default function VariantA() {
               key={s.title}
               title={s.title}
               description={s.description}
+              imageSrc={s.image}
               imagePlaceholder={s.placeholder}
               reversed={i % 2 === 1}
               accentColor={ACCENT}

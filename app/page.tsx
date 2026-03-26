@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const variants = [
   {
@@ -9,6 +10,7 @@ const variants = [
       "Focused on founder productivity — stop doing $15/hr work on a $500/hr schedule.",
     color: "#1E2A5E",
     accent: "#F5A623",
+    image: "/images/hero-v1.jpg",
   },
   {
     href: "/v2",
@@ -18,6 +20,7 @@ const variants = [
       "Focused on flexible scaling — grow your team without growing your payroll.",
     color: "#0D4B3B",
     accent: "#2EC4B6",
+    image: "/images/hero-v2.jpg",
   },
   {
     href: "/v3",
@@ -27,6 +30,7 @@ const variants = [
       "Focused on quality and trust — virtual assistants you can actually rely on.",
     color: "#0B1D51",
     accent: "#C9A84C",
+    image: "/images/hero-v3.jpg",
   },
 ];
 
@@ -57,10 +61,15 @@ export default function Home() {
                 href={v.href}
                 className="group block rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300"
               >
-                <div
-                  className="h-3"
-                  style={{ backgroundColor: v.color }}
-                />
+                <div className="aspect-[16/9] relative overflow-hidden">
+                  <Image
+                    src={v.image}
+                    alt={v.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
                 <div className="p-8">
                   <span
                     className="inline-block text-xs font-semibold tracking-wider uppercase mb-3 px-3 py-1 rounded-full"

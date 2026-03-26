@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CTAButton from "@/components/shared/CTAButton";
 import SectionHeading from "@/components/shared/SectionHeading";
 import ServiceCard from "@/components/shared/ServiceCard";
@@ -84,16 +85,15 @@ export default function VariantB() {
             </div>
           </div>
           <div className="flex-1">
-            <div className="grid grid-cols-3 grid-rows-2 gap-3 max-w-md mx-auto">
-              {[1, 2, 3, 4, 5, 6].map((n) => (
-                <div
-                  key={n}
-                  className="aspect-square rounded-2xl flex items-center justify-center text-sm font-medium"
-                  style={{ backgroundColor: `${FOREST}${n % 2 === 0 ? "15" : "08"}`, color: FOREST }}
-                >
-                  VA {n}
-                </div>
-              ))}
+            <div className="w-full aspect-[4/3] max-w-md mx-auto rounded-3xl overflow-hidden relative">
+              <Image
+                src="/images/hero-v2.jpg"
+                alt="Team of virtual assistants collaborating"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
+              />
             </div>
           </div>
         </div>
