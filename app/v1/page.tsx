@@ -102,12 +102,12 @@ export default function VariantA() {
               className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               style={{ color: ACCENT }}
             >
-              Stop Doing $15/hr Work on a $500/hr Schedule
+              Virtual Assistants From $4–$8/hr That Free You to Focus
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
-              Runwell virtual assistants handle your admin, email, scheduling,
-              and data entry — starting at just $4–$8/hr — so you can focus on
-              the work that actually moves the needle.
+              Why spend your $500/hr time on admin, email, and scheduling?
+              Runwell gives you trained virtual assistants from just $4–$8 per
+              hour — so you can focus on the work that actually moves the needle.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="Get Your Time Back" bgColor={AMBER} />
@@ -133,8 +133,8 @@ export default function VariantA() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeading
-            title="You Didn't Start a Business to Manage Inboxes"
-            subtitle="These time sinks are stealing hours from the work that actually grows your business."
+            title="Why Pay Full-Time Rates for Part-Time Tasks?"
+            subtitle="At $4–$8/hr, a virtual assistant handles the time sinks stealing hours from the work that grows your business."
             titleColor={ACCENT}
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -231,11 +231,11 @@ export default function VariantA() {
             className="font-heading text-3xl md:text-4xl font-bold mb-4"
             style={{ color: ACCENT }}
           >
-            Your To-Do List Won&apos;t Shrink Itself
+            Trained Virtual Assistants. $4–$8/hr. Start This Week.
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Starting at $4–$8/hr, a Runwell VA can give you back 20+ hours
-            a week. Book a free consultation today.
+            Get back 20+ hours a week with a dedicated VA who handles admin,
+            email, scheduling, and research — from just $4–$8 per hour.
           </p>
           <CTAButton text="Reclaim Your Calendar" bgColor={AMBER} />
         </div>

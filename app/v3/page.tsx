@@ -81,12 +81,12 @@ export default function VariantC() {
               className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               style={{ color: NAVY }}
             >
-              Virtual Assistants You Can Actually Rely On
+              Vetted Virtual Assistants From $4–$8/hr You Can Actually Rely On
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
-              Every Runwell VA is rigorously vetted, trained to your standards,
-              and backed by our quality guarantee — from just $4–$8/hr. No more
-              chasing freelancers or fixing mistakes.
+              Every Runwell VA is rigorously screened, trained to your standards,
+              and backed by our quality guarantee — all for just $4–$8 per hour.
+              No more chasing freelancers or fixing mistakes.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="Meet Our Standard" bgColor={NAVY} />
@@ -118,8 +118,8 @@ export default function VariantC() {
       <section className="py-20" style={{ backgroundColor: "#F5F5F0" }}>
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeading
-            title="Outsourcing Shouldn't Mean Compromising"
-            subtitle="If you've been burned before, you're not alone. Here's what bad outsourcing looks like."
+            title="$4–$8/hr Shouldn't Mean Cutting Corners"
+            subtitle="Most cheap VAs deliver cheap work. Runwell is different. Here's what bad outsourcing looks like — and why we built the opposite."
             titleColor={NAVY}
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -225,11 +225,11 @@ export default function VariantC() {
             className="font-heading text-3xl md:text-4xl font-bold mb-4"
             style={{ color: NAVY }}
           >
-            Quality You Can Count On. Every Single Day.
+            $4–$8/hr Virtual Assistants. Quality You Can Count On.
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            From $4–$8/hr. Book a call to learn how Runwell&apos;s vetted
-            assistants deliver work you never have to double-check.
+            Book a call to see how Runwell&apos;s vetted assistants deliver
+            work you never have to double-check — at a fraction of the cost.
           </p>
           <CTAButton text="Book a Quality Consultation" bgColor={GOLD} />
         </div>

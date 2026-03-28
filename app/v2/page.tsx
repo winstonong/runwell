@@ -72,12 +72,12 @@ export default function VariantB() {
               className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               style={{ color: FOREST }}
             >
-              Grow Your Team Without Growing Your Payroll
+              Trained Virtual Assistants From $4–$8/hr — Scale Anytime
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
-              Runwell gives you trained virtual assistants from just $4–$8/hr
-              — flexible hours, no contracts, no HR headaches. Scale up or down
-              as your business needs change.
+              Grow your team without growing your payroll. Runwell gives you
+              skilled virtual assistants at $4–$8 per hour — flexible hours, no
+              contracts, no HR headaches.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="See Flexible Plans" bgColor={FOREST} />
@@ -103,8 +103,8 @@ export default function VariantB() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeading
-            title="The Hidden Cost of Your Next Full-Time Hire"
-            subtitle="Compare the traditional hiring process with the Runwell approach."
+            title="$45K+ Salary vs $4–$8/hr Virtual Assistant"
+            subtitle="Compare the true cost of a full-time hire with a Runwell VA."
             titleColor={FOREST}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -150,8 +150,8 @@ export default function VariantB() {
       <section className="py-20" style={{ backgroundColor: "#E8F5F1" }}>
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeading
-            title="One Assistant. Five Roles Covered."
-            subtitle="Your Runwell VA handles a wide range of tasks so you don't have to."
+            title="One VA at $4–$8/hr. Five Roles Covered."
+            subtitle="Admin, email, scheduling, data entry, and research — all handled by one trained assistant."
             titleColor={FOREST}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -225,10 +225,10 @@ export default function VariantB() {
       <section className="py-24" style={{ backgroundColor: FOREST }}>
         <div className="max-w-3xl mx-auto px-6 text-center text-white">
           <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
-            Flexible Support That Grows With You
+            Virtual Assistants From $4–$8/hr. No Contracts. No Minimums.
           </h2>
           <p className="text-lg text-white/80 mb-8">
-            No contracts. No minimums. Just reliable help from $4–$8/hr.
+            Flexible support that scales with your business — start with a few hours, grow when you&apos;re ready.
           </p>
           <CTAButton text="Get Started Today" bgColor={TEAL} />
         </div>
