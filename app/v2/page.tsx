@@ -72,7 +72,7 @@ export default function VariantB() {
               className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               style={{ color: FOREST }}
             >
-              Trained Virtual Assistants From $4–$8/hr — Scale Anytime
+              $4–$8 Virtual Assistants
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
               Grow your team without growing your payroll. Runwell gives you

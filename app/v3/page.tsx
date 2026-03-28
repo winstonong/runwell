@@ -81,7 +81,7 @@ export default function VariantC() {
               className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               style={{ color: NAVY }}
             >
-              Vetted Virtual Assistants From $4–$8/hr You Can Actually Rely On
+              $4–$8 Virtual Assistants
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
               Every Runwell VA is rigorously screened, trained to your standards,

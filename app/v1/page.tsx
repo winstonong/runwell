@@ -102,7 +102,7 @@ export default function VariantA() {
               className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               style={{ color: ACCENT }}
             >
-              Virtual Assistants From $4–$8/hr That Free You to Focus
+              $4–$8 Virtual Assistants
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
               Why spend your $500/hr time on admin, email, and scheduling?
