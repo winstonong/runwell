@@ -483,7 +483,7 @@ export default function VariantH() {
       </footer>
 
       {/* Animations */}
-      <style jsx global>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(20px); }
           to { opacity: 1; transform: translateY(0); }
@@ -494,7 +494,7 @@ export default function VariantH() {
         }
         .animate-fadeIn { animation: fadeIn 0.6s ease-out both; }
         .animate-fadeInUp { animation: fadeInUp 0.6s ease-out 0.2s both; }
-      `}</style>
+      `}} />
     </div>
   );
 }
