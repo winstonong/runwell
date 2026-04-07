@@ -98,19 +98,12 @@ export default function VariantG() {
                 </span>
               </div>
 
-              {/* Inline mini form */}
-              <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 max-w-md">
-                <p className="font-semibold text-gray-900 mb-4">Book a free consultation</p>
-                <div className="space-y-3">
-                  <input type="text" placeholder="Full name" className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
-                  <input type="email" placeholder="Work email" className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
-                  <input type="tel" placeholder="Phone number" className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
-                  <a href="#contact" className="block text-center w-full py-3 text-white font-semibold rounded-lg text-sm transition-opacity hover:opacity-90" style={{ backgroundColor: PRIMARY }}>
-                    Get Started →
-                  </a>
-                </div>
-                <p className="text-xs text-gray-400 mt-3 text-center">Free consultation · No commitment · Response within 24hrs</p>
+              <div className="flex flex-wrap gap-4">
+                <a href="#contact" className="inline-block px-8 py-3.5 text-white font-semibold rounded-lg text-sm transition-opacity hover:opacity-90" style={{ backgroundColor: PRIMARY }}>
+                  Get Started — Book a Free Call →
+                </a>
               </div>
+              <p className="text-xs text-gray-400">Free consultation · No commitment · Response within 24hrs</p>
             </div>
             <div className="flex-1">
               <div className="w-full aspect-[3/4] max-w-lg mx-auto rounded-3xl overflow-hidden relative shadow-2xl">
