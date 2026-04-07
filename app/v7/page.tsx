@@ -186,11 +186,20 @@ export default function VariantG() {
         </div>
       </section>
 
-      {/* ════════ HERO IMAGE BREAK ════════ */}
-      <section className="bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden relative">
-            <Image src="/images/hero-v3.jpg" alt="Professional virtual assistant at work" fill className="object-cover object-top" sizes="100vw" />
+      {/* ════════ IMAGE ROW ════════ */}
+      <section className="bg-white py-6">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              { src: "/images/hero-v1.jpg", alt: "Virtual assistant working remotely" },
+              { src: "/images/admin.jpg", alt: "Administrative support" },
+              { src: "/images/email.jpg", alt: "Email and communication management" },
+              { src: "/images/hero-v2.jpg", alt: "Professional team collaboration" },
+            ].map((img) => (
+              <div key={img.src} className="aspect-[4/3] rounded-xl overflow-hidden relative">
+                <Image src={img.src} alt={img.alt} fill className="object-cover object-top" sizes="(max-width: 768px) 50vw, 25vw" />
+              </div>
+            ))}
           </div>
         </div>
       </section>
