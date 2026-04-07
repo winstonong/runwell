@@ -115,7 +115,7 @@ export default function VariantA() {
           </div>
           <div className="flex-1">
             <div className="w-full aspect-square max-w-md mx-auto rounded-3xl overflow-hidden relative">
-              <Image src="/images/hero-v1.jpg" alt="Virtual assistant at work" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" priority />
+              <Image src="/images/hero-v1.jpg" alt="Virtual assistant at work" fill className="object-cover object-top" sizes="(max-width: 768px) 100vw, 50vw" priority />
             </div>
           </div>
         </div>

@@ -109,7 +109,7 @@ export default function VariantC() {
           </div>
           <div className="flex-1">
             <div className="w-full aspect-[4/3] max-w-md mx-auto rounded-3xl overflow-hidden relative">
-              <Image src="/images/hero-v3.jpg" alt="Professional virtual assistant" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" priority />
+              <Image src="/images/hero-v3.jpg" alt="Professional virtual assistant" fill className="object-cover object-top" sizes="(max-width: 768px) 100vw, 50vw" priority />
               <div className="absolute top-4 right-4 px-3 py-1.5 rounded-lg text-xs font-bold text-white z-10" style={{ backgroundColor: GOLD }}>
                 Quality Guaranteed
               </div>

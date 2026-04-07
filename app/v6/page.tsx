@@ -103,7 +103,7 @@ export default function VariantF() {
           </div>
           <div className="flex-1">
             <div className="w-full aspect-[4/3] max-w-md mx-auto rounded-3xl overflow-hidden relative">
-              <Image src="/images/hero-v3.jpg" alt="Executive virtual assistant" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" priority />
+              <Image src="/images/hero-v3.jpg" alt="Executive virtual assistant" fill className="object-cover object-top" sizes="(max-width: 768px) 100vw, 50vw" priority />
               <div className="absolute top-4 right-4 px-4 py-2 rounded-lg text-xs font-bold text-white z-10" style={{ backgroundColor: GOLD }}>
                 Executive Tier
               </div>
