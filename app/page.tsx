@@ -8,6 +8,7 @@ const variants = [
   { href: "/v5", label: "E", title: "Small Business", description: "Affordable VA support designed for small business owners", color: "#16A34A" },
   { href: "/v6", label: "F", title: "Executive Assistant", description: "Premium executive support at a fraction of the cost", color: "#1F2937" },
   { href: "/v7", label: "G", title: "Hire Remote Talent", description: "Authority-driven page with social proof, reviews, and inline form", color: "#0066CC" },
+  { href: "/v8", label: "H", title: "Architectural Authority", description: "Premium design with Material 3 tokens, talent profiles, and comparison table", color: "#003d9b" },
 ];
 
 export default function Home() {
