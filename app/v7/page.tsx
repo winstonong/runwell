@@ -1,8 +1,8 @@
 import Image from "next/image";
 import SectionHeading from "@/components/shared/SectionHeading";
-import TestimonialCard from "@/components/shared/TestimonialCard";
 import FAQAccordion from "@/components/shared/FAQAccordion";
 import ContactForm from "@/components/shared/ContactForm";
+import HubSpotEmbed from "@/components/shared/HubSpotEmbed";
 
 const PRIMARY = "#0066CC";
 const DARK = "#1a1a2e";
@@ -46,27 +46,6 @@ const reviewPlatforms = [
   { name: "Clutch", rating: "4.9", reviews: "340+" },
 ];
 
-const testimonials = [
-  {
-    quote: "We replaced two part-time local hires with one Virtual Assistants Philippines VA. The quality of work went up, the cost went down by 70%, and we haven't looked back. It took less than a week to get started.",
-    name: "Krystal Nguyen",
-    role: "COO, Vantage Growth Partners",
-    result: "70% cost reduction, fully operational in 5 days",
-  },
-  {
-    quote: "I was spending $4,200/month on a local admin assistant. My Virtual Assistants Philippines VA handles the same workload — plus social media and CRM — for under $1,000/month. The ROI is undeniable.",
-    name: "Tom Gallagher",
-    role: "Founder, Ironside Consulting",
-    result: "Saved $3,200/month with better output",
-  },
-  {
-    quote: "The hiring process was the fastest I've ever experienced. I had a call on Monday, was matched by Wednesday, and my VA was handling my inbox by Friday. Genuinely impressive.",
-    name: "Amara Osei",
-    role: "Director of Operations, Kaleido Health",
-    result: "From first call to working VA in 4 days",
-  },
-];
-
 const faqs = [
   { question: "How much does a virtual assistant cost?", answer: "Virtual Assistants Philippines VAs range from $4–$8 per hour depending on the role complexity and hours required. This is an all-in rate — no hidden fees, no benefits overhead, no recruiting costs. Most clients save 60–70% compared to hiring locally." },
   { question: "How fast can I hire a virtual assistant?", answer: "Most clients are matched with a vetted VA within 3–7 days. Your assistant is pre-trained on your tools and workflows before their first day, so there's no lengthy onboarding period." },
@@ -98,12 +77,10 @@ export default function VariantG() {
                 </span>
               </div>
 
-              <div className="flex flex-wrap gap-4">
-                <a href="#contact" className="inline-block px-8 py-3.5 text-white font-semibold rounded-lg text-sm transition-opacity hover:opacity-90" style={{ backgroundColor: PRIMARY }}>
-                  Get Started — Book a Free Call →
-                </a>
+              <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-100 max-w-md">
+                <HubSpotEmbed containerId="hubspot-hero-form" />
+                <p className="text-xs text-gray-400 mt-3 text-center">Free consultation · No commitment · Response within 24hrs</p>
               </div>
-              <p className="text-xs text-gray-400">Free consultation · No commitment · Response within 24hrs</p>
             </div>
             <div className="flex-1">
               <div className="w-full aspect-[3/4] max-w-lg mx-auto rounded-3xl overflow-hidden relative shadow-2xl">
@@ -241,18 +218,6 @@ export default function VariantG() {
             <a href="#contact" className="inline-block px-8 py-3.5 text-white font-semibold rounded-lg text-sm transition-opacity hover:opacity-90" style={{ backgroundColor: PRIMARY }}>
               Tell Us What You Need
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="What our clients say" titleColor={DARK} />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {testimonials.map((t) => (
-              <TestimonialCard key={t.name} quote={t.quote} name={t.name} role={t.role} result={t.result} accentColor={PRIMARY} />
-            ))}
           </div>
         </div>
       </section>
