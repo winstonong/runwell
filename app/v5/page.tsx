@@ -61,7 +61,7 @@ const stats = [
 
 const testimonials = [
   {
-    quote: "I run a dental practice with two locations. I was spending 15 hours a week on scheduling, insurance follow-ups, and patient communications. My Runwell VA took all of that off my plate for $480/month. I can actually focus on my patients now.",
+    quote: "I run a dental practice with two locations. I was spending 15 hours a week on scheduling, insurance follow-ups, and patient communications. My VA Philippines VA took all of that off my plate for $480/month. I can actually focus on my patients now.",
     name: "Dr. Amanda Chen",
     role: "Owner, Brightside Dental Care",
     result: "Saved 15 hrs/week — $480/mo vs $3,200/mo for a local admin",
@@ -81,9 +81,9 @@ const testimonials = [
 ];
 
 const faqs = [
-  { question: "I'm a small business — can I really afford a VA?", answer: "A Runwell VA costs $4–$8/hr. That's $320–$640/month for 20 hours/week. Compare that to a local part-time hire at $18–25/hr ($1,440–$2,000/month) plus benefits and management overhead. Most small business owners save 60–75% with Runwell." },
+  { question: "I'm a small business — can I really afford a VA?", answer: "A VA Philippines VA costs $4–$8/hr. That's $320–$640/month for 20 hours/week. Compare that to a local part-time hire at $18–25/hr ($1,440–$2,000/month) plus benefits and management overhead. Most small business owners save 60–75% with VA Philippines." },
   { question: "Will they understand my industry?", answer: "We match VAs based on relevant experience. We have VAs who've supported dental practices, law firms, real estate agents, e-commerce stores, restaurants, and dozens of other industries. We'll match you with someone who already knows the basics of your field." },
-  { question: "What about data security?", answer: "All Runwell VAs sign NDAs and data handling agreements. We follow industry-standard security practices and can work within your existing security tools and protocols." },
+  { question: "What about data security?", answer: "All VA Philippines VAs sign NDAs and data handling agreements. We follow industry-standard security practices and can work within your existing security tools and protocols." },
   { question: "Can I start with just a few hours?", answer: "Yes. No minimums. Many small business owners start with 10–20 hours a month to test the waters, then scale up as they see the impact. You only pay for the hours you use." },
   { question: "What if I don't know what to delegate?", answer: "That's completely normal. We do a free workflow audit during onboarding to identify the tasks taking up your time and the best candidates for delegation. Most business owners are surprised by how much they can hand off." },
 ];
@@ -134,7 +134,7 @@ export default function VariantE() {
       <section style={{ backgroundColor: "#FAFAF7" }}>
         <div className="py-20">
           <div className="max-w-7xl mx-auto px-6">
-            <SectionHeading title="What Your VA Actually Does All Day" subtitle="Real tasks. Real results. Here's how Runwell VAs support small businesses like yours." titleColor={GREEN} />
+            <SectionHeading title="What Your VA Actually Does All Day" subtitle="Real tasks. Real results. Here's how VA Philippines VAs support small businesses like yours." titleColor={GREEN} />
           </div>
           {useCases.map((u, i) => (
             <SplitSection key={u.title} title={u.title} description={u.description} imageSrc={u.image} imagePlaceholder={u.title} reversed={i % 2 === 1} accentColor={GREEN} />
@@ -157,12 +157,12 @@ export default function VariantE() {
               </ul>
             </div>
             <div className="rounded-2xl border-2 p-8" style={{ borderColor: GREEN, backgroundColor: "#F0FDF4" }}>
-              <h3 className="font-heading font-bold text-xl mb-4" style={{ color: GREEN }}>With a Runwell VA</h3>
+              <h3 className="font-heading font-bold text-xl mb-4" style={{ color: GREEN }}>With a VA Philippines VA</h3>
               <ul className="space-y-3 text-sm" style={{ color: "#166534" }}>
                 <li className="flex justify-between"><span>VA handles 15 hrs/wk of admin</span><span className="font-bold">$360/mo</span></li>
                 <li className="flex justify-between"><span>You reinvest 15 hrs/wk in revenue work</span><span className="font-bold">+$4,500/mo</span></li>
                 <li className="flex justify-between"><span>Less stress, better work-life balance</span><span className="font-bold">Priceless</span></li>
-                <li className="flex justify-between border-t pt-3" style={{ borderColor: `${GREEN}30` }}><span className="font-bold">Monthly cost with Runwell</span><span className="font-bold">$360–$640</span></li>
+                <li className="flex justify-between border-t pt-3" style={{ borderColor: `${GREEN}30` }}><span className="font-bold">Monthly cost with VA Philippines</span><span className="font-bold">$360–$640</span></li>
               </ul>
             </div>
           </div>

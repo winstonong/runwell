@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Runwell — Virtual Assistant Services",
+  title: "Virtual Assistants Philippines — Hire Remote Staff from $4/hr",
   description:
     "Trained virtual assistants for admin support, email management, scheduling, data entry, and research. Scale your team without the overhead.",
 };

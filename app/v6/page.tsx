@@ -62,7 +62,7 @@ const stats = [
 
 const testimonials = [
   {
-    quote: "My Runwell EA manages my calendar across three time zones and preps me for every meeting with a one-page brief. I estimate she saves me 25 hours a week. At $7/hr, the ROI is absurd. My previous EA in Manhattan cost $85K a year and wasn't as thorough.",
+    quote: "My VA Philippines EA manages my calendar across three time zones and preps me for every meeting with a one-page brief. I estimate she saves me 25 hours a week. At $7/hr, the ROI is absurd. My previous EA in Manhattan cost $85K a year and wasn't as thorough.",
     name: "Daniel Harrington",
     role: "CFO, Meridian Capital Group",
     result: "25 hours/week saved — replaced an $85K/yr in-house EA",
