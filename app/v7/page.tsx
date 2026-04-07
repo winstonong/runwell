@@ -48,13 +48,13 @@ const reviewPlatforms = [
 
 const testimonials = [
   {
-    quote: "We replaced two part-time local hires with one VA Philippines VA. The quality of work went up, the cost went down by 70%, and we haven't looked back. It took less than a week to get started.",
+    quote: "We replaced two part-time local hires with one Virtual Assistants Philippines VA. The quality of work went up, the cost went down by 70%, and we haven't looked back. It took less than a week to get started.",
     name: "Krystal Nguyen",
     role: "COO, Vantage Growth Partners",
     result: "70% cost reduction, fully operational in 5 days",
   },
   {
-    quote: "I was spending $4,200/month on a local admin assistant. My VA Philippines VA handles the same workload — plus social media and CRM — for under $1,000/month. The ROI is undeniable.",
+    quote: "I was spending $4,200/month on a local admin assistant. My Virtual Assistants Philippines VA handles the same workload — plus social media and CRM — for under $1,000/month. The ROI is undeniable.",
     name: "Tom Gallagher",
     role: "Founder, Ironside Consulting",
     result: "Saved $3,200/month with better output",
@@ -68,7 +68,7 @@ const testimonials = [
 ];
 
 const faqs = [
-  { question: "How much does a virtual assistant cost?", answer: "VA Philippines VAs range from $4–$8 per hour depending on the role complexity and hours required. This is an all-in rate — no hidden fees, no benefits overhead, no recruiting costs. Most clients save 60–70% compared to hiring locally." },
+  { question: "How much does a virtual assistant cost?", answer: "Virtual Assistants Philippines VAs range from $4–$8 per hour depending on the role complexity and hours required. This is an all-in rate — no hidden fees, no benefits overhead, no recruiting costs. Most clients save 60–70% compared to hiring locally." },
   { question: "How fast can I hire a virtual assistant?", answer: "Most clients are matched with a vetted VA within 3–7 days. Your assistant is pre-trained on your tools and workflows before their first day, so there's no lengthy onboarding period." },
   { question: "What tasks can a virtual assistant handle?", answer: "Our VAs handle admin support, email management, calendar scheduling, data entry, CRM management, research, customer service, social media, bookkeeping, travel coordination, and project management support. If it can be done remotely, our VAs can likely handle it." },
   { question: "Is there a minimum commitment?", answer: "No long-term contracts. We recommend starting with at least 20 hours per month to see meaningful impact, but there are no minimums and no penalties for changing or canceling your plan." },
@@ -152,7 +152,7 @@ export default function VariantG() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
             <h2 className="font-heading text-3xl md:text-4xl font-bold mb-3" style={{ color: DARK }}>
-              Why 1,200+ businesses choose VA Philippines
+              Why 1,200+ businesses choose Virtual Assistants Philippines
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
               We handle the recruiting, vetting, and training so you can start delegating in days — not months.
@@ -203,7 +203,7 @@ export default function VariantG() {
                 Stop interviewing. Start delegating.
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Traditional hiring takes 4–8 weeks, costs thousands in recruiter fees, and still might not work out. With VA Philippines, you describe what you need, we match you with a pre-vetted professional, and you&apos;re delegating within days.
+                Traditional hiring takes 4–8 weeks, costs thousands in recruiter fees, and still might not work out. With Virtual Assistants Philippines, you describe what you need, we match you with a pre-vetted professional, and you&apos;re delegating within days.
               </p>
               <div className="space-y-4">
                 {[

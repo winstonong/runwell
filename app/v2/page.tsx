@@ -74,7 +74,7 @@ const steps = [
 
 const testimonials = [
   {
-    quote: "We needed support for a product launch but couldn't justify a full-time hire. VA Philippines gave us exactly what we needed, for exactly as long as we needed it. When the launch was over, we scaled back. No awkward conversations.",
+    quote: "We needed support for a product launch but couldn't justify a full-time hire. Virtual Assistants Philippines gave us exactly what we needed, for exactly as long as we needed it. When the launch was over, we scaled back. No awkward conversations.",
     name: "James Torres",
     role: "COO, LaunchPad Ventures",
     result: "Scaled from 0 to 3 VAs in under a week for launch",
@@ -124,7 +124,7 @@ export default function VariantB() {
       {/* Comparison */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="The Real Cost of Your Next Full-Time Hire" subtitle="A single hire costs $55K+ per year before you see any results. A VA Philippines VA starts delivering from day one." titleColor={FOREST} />
+          <SectionHeading title="The Real Cost of Your Next Full-Time Hire" subtitle="A single hire costs $55K+ per year before you see any results. A Virtual Assistants Philippines VA starts delivering from day one." titleColor={FOREST} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="rounded-2xl border border-gray-200 p-8">
               <h3 className="font-heading font-bold text-xl mb-6 text-gray-400">Traditional Hire</h3>
@@ -145,7 +145,7 @@ export default function VariantB() {
             </div>
             <div className="rounded-2xl p-8 text-white" style={{ backgroundColor: FOREST }}>
               <h3 className="font-heading font-bold text-xl mb-6 flex items-center gap-2">
-                VA Philippines VA <span className="text-xs bg-white/20 px-2 py-0.5 rounded-full">Recommended</span>
+                Virtual Assistants Philippines VA <span className="text-xs bg-white/20 px-2 py-0.5 rounded-full">Recommended</span>
               </h3>
               <ul className="space-y-4">
                 {[
@@ -174,7 +174,7 @@ export default function VariantB() {
       {/* Services */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="One VA. Six Roles Covered." subtitle="Your VA Philippines VA is trained across multiple disciplines — so one person handles what used to take a whole team." titleColor={FOREST} />
+          <SectionHeading title="One VA. Six Roles Covered." subtitle="Your Virtual Assistants Philippines VA is trained across multiple disciplines — so one person handles what used to take a whole team." titleColor={FOREST} />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s) => (
               <ServiceCard key={s.title} icon={s.icon} title={s.title} description={s.description} accentColor={FOREST} />

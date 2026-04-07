@@ -61,7 +61,7 @@ const steps = [
 
 const testimonials = [
   {
-    quote: "I went from 60-hour weeks to 42. My VA Philippines VA handles my entire inbox, schedules all my meetings, and preps me for every call. It's like having a chief of staff for $6/hr.",
+    quote: "I went from 60-hour weeks to 42. My Virtual Assistants Philippines VA handles my entire inbox, schedules all my meetings, and preps me for every call. It's like having a chief of staff for $6/hr.",
     name: "Sarah Kessler",
     role: "Founder & CEO, Bloom Digital Agency",
     result: "Cut weekly hours from 60 to 42 in the first month",
@@ -92,7 +92,7 @@ const faqs = [
   { question: "What if my VA isn't a good fit?", answer: "We'll rematch you with a new VA at no extra cost. Our 30-day satisfaction guarantee means you're never stuck with the wrong person." },
   { question: "What tools do your VAs work with?", answer: "Our VAs are trained on Google Workspace, Microsoft 365, Slack, Notion, Asana, HubSpot, Salesforce, and dozens more. If you use it, we can support it." },
   { question: "Do I need to commit to a certain number of hours?", answer: "No minimums. Start with 10 hours a month or 40 hours a week — whatever fits your needs. Scale up or down anytime with no penalties." },
-  { question: "How is this different from hiring on Upwork or Fiverr?", answer: "Every VA Philippines VA is pre-vetted (less than 3% acceptance rate), trained on your workflows before day one, and backed by our quality guarantee. No job posts, no screening resumes, no trial-and-error." },
+  { question: "How is this different from hiring on Upwork or Fiverr?", answer: "Every Virtual Assistants Philippines VA is pre-vetted (less than 3% acceptance rate), trained on your workflows before day one, and backed by our quality guarantee. No job posts, no screening resumes, no trial-and-error." },
 ];
 
 export default function VariantA() {
@@ -106,7 +106,7 @@ export default function VariantA() {
               Stop Doing $15/hr Tasks on Your $500/hr Time
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
-              VA Philippines matches you with a trained virtual assistant in 48 hours — from just <strong>$4–$8/hr</strong>. They handle your admin, email, scheduling, and research so you can focus on the work that actually moves the needle.
+              Virtual Assistants Philippines matches you with a trained virtual assistant in 48 hours — from just <strong>$4–$8/hr</strong>. They handle your admin, email, scheduling, and research so you can focus on the work that actually moves the needle.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="Get Your Time Back" bgColor={AMBER} />

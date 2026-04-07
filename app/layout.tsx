@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Virtual Assistants Philippines — Hire Remote Staff from $4/hr",
   description:
-    "Trained virtual assistants for admin support, email management, scheduling, data entry, and research. Scale your team without the overhead.",
+    "Full-time remote staff from $4-$8/hr. Hire in days, not months. Cancel anytime.",
 };
 
 export default function RootLayout({

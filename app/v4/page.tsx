@@ -91,19 +91,19 @@ const comparison = [
 
 const testimonials = [
   {
-    quote: "I posted a job on Upwork and spent a week screening applicants. With VA Philippines, I described what I needed and had a trained VA working the next day. Should have done this from the start.",
+    quote: "I posted a job on Upwork and spent a week screening applicants. With Virtual Assistants Philippines, I described what I needed and had a trained VA working the next day. Should have done this from the start.",
     name: "Mike Chen",
     role: "Founder, Steelpoint Digital",
     result: "Went from job posting to working VA in 24 hours",
   },
   {
-    quote: "I was paying $22/hr for a local part-time assistant who called in sick every other week. My VA Philippines VA costs $6/hr, never misses a day, and honestly does better work.",
+    quote: "I was paying $22/hr for a local part-time assistant who called in sick every other week. My Virtual Assistants Philippines VA costs $6/hr, never misses a day, and honestly does better work.",
     name: "Tanya Brooks",
     role: "Owner, Brooks Accounting Group",
     result: "Saved $2,800/month switching from a local hire",
   },
   {
-    quote: "We needed three VAs with different skill sets for a product launch. VA Philippines matched all three within 48 hours and they were coordinating with each other by day two.",
+    quote: "We needed three VAs with different skill sets for a product launch. Virtual Assistants Philippines matched all three within 48 hours and they were coordinating with each other by day two.",
     name: "Alex Rivera",
     role: "Head of Ops, Clearpath SaaS",
     result: "3 specialized VAs matched and working within 48 hours",
@@ -111,7 +111,7 @@ const testimonials = [
 ];
 
 const faqs = [
-  { question: "How is VA Philippines different from Upwork or Fiverr?", answer: "On freelance marketplaces, you post a job, screen dozens of applicants, and hope for the best. With VA Philippines, we pre-vet every VA (3% acceptance rate), train them on your tools before day one, and provide backup coverage if they're ever unavailable. You get a managed service, not a marketplace." },
+  { question: "How is Virtual Assistants Philippines different from Upwork or Fiverr?", answer: "On freelance marketplaces, you post a job, screen dozens of applicants, and hope for the best. With Virtual Assistants Philippines, we pre-vet every VA (3% acceptance rate), train them on your tools before day one, and provide backup coverage if they're ever unavailable. You get a managed service, not a marketplace." },
   { question: "Can I try before I commit?", answer: "Yes. Start with as few as 10 hours and see the quality for yourself. If you're not satisfied within 30 days, we'll refund your last month. No risk." },
   { question: "What if I need to replace my VA?", answer: "We rematch you at no extra cost. Most replacements are completed within 48 hours, and your new VA is briefed on your workflows before starting." },
   { question: "Do I need to provide training?", answer: "No. We handle training. Before your VA starts, we brief them on your tools, communication preferences, and standard procedures. Most clients are surprised by how little onboarding is needed." },
@@ -129,7 +129,7 @@ export default function VariantD() {
               Hire a Pre-Vetted Virtual Assistant — Starting at $4/hr
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
-              Skip the job posts, interviews, and training. VA Philippines matches you with a trained VA in 48 hours. No contracts. Cancel anytime. <strong>Just reliable help from $4–$8/hr.</strong>
+              Skip the job posts, interviews, and training. Virtual Assistants Philippines matches you with a trained VA in 48 hours. No contracts. Cancel anytime. <strong>Just reliable help from $4–$8/hr.</strong>
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="Hire a VA Now" bgColor={ORANGE} />
@@ -179,13 +179,13 @@ export default function VariantD() {
       {/* Comparison Table */}
       <section className="py-20" style={{ backgroundColor: "#F0F6FF" }}>
         <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="VA Philippines vs. The Alternatives" subtitle="See how a managed VA service compares to freelance marketplaces and local hires." titleColor={BLUE} />
+          <SectionHeading title="Virtual Assistants Philippines vs. The Alternatives" subtitle="See how a managed VA service compares to freelance marketplaces and local hires." titleColor={BLUE} />
           <div className="overflow-x-auto">
             <table className="w-full max-w-4xl mx-auto text-sm">
               <thead>
                 <tr className="border-b-2" style={{ borderColor: BLUE }}>
                   <th className="text-left py-3 px-4 text-gray-500 font-medium"></th>
-                  <th className="text-left py-3 px-4 font-bold" style={{ color: BLUE }}>VA Philippines</th>
+                  <th className="text-left py-3 px-4 font-bold" style={{ color: BLUE }}>Virtual Assistants Philippines</th>
                   <th className="text-left py-3 px-4 text-gray-500 font-medium">Upwork</th>
                   <th className="text-left py-3 px-4 text-gray-500 font-medium">Fiverr</th>
                   <th className="text-left py-3 px-4 text-gray-500 font-medium">Local Hire</th>
@@ -210,7 +210,7 @@ export default function VariantD() {
       {/* Testimonials */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="Why People Switch to VA Philippines" titleColor={BLUE} />
+          <SectionHeading title="Why People Switch to Virtual Assistants Philippines" titleColor={BLUE} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {testimonials.map((t) => (
               <TestimonialCard key={t.name} quote={t.quote} name={t.name} role={t.role} result={t.result} accentColor={BLUE} />

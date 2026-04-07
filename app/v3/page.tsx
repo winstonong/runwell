@@ -68,13 +68,13 @@ const stats = [
 
 const testimonials = [
   {
-    quote: "After two bad experiences with freelance VAs, I was skeptical. My VA Philippines VA has been flawless for 14 months. Not a single missed task, not a single error in client-facing work. The quality difference is night and day.",
+    quote: "After two bad experiences with freelance VAs, I was skeptical. My Virtual Assistants Philippines VA has been flawless for 14 months. Not a single missed task, not a single error in client-facing work. The quality difference is night and day.",
     name: "David Liu",
     role: "Managing Director, Apex Partners",
     result: "14 months, zero missed tasks, zero errors",
   },
   {
-    quote: "We tried three different VA services before VA Philippines. Two had accuracy problems, one ghosted us mid-project. VA Philippines's vetting process actually works — our VA is more reliable than some of our full-time staff.",
+    quote: "We tried three different VA services before Virtual Assistants Philippines. Two had accuracy problems, one ghosted us mid-project. Virtual Assistants Philippines's vetting process actually works — our VA is more reliable than some of our full-time staff.",
     name: "Rachel Whitfield",
     role: "VP Operations, Trident Legal",
     result: "99.7% task accuracy over 8 months",
@@ -100,7 +100,7 @@ export default function VariantC() {
               Virtual Assistants You Never Have to Double-Check
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
-              Every VA Philippines VA is rigorously vetted, trained to your standards, and backed by our quality guarantee — all from just <strong>$4–$8/hr</strong>. No more chasing freelancers or fixing their mistakes.
+              Every Virtual Assistants Philippines VA is rigorously vetted, trained to your standards, and backed by our quality guarantee — all from just <strong>$4–$8/hr</strong>. No more chasing freelancers or fixing their mistakes.
             </p>
             <div className="flex flex-wrap gap-4">
               <CTAButton text="See Our Quality Standard" bgColor={NAVY} href="#quality" />
@@ -124,7 +124,7 @@ export default function VariantC() {
       {/* Pain Points */}
       <section className="py-20" style={{ backgroundColor: "#F5F5F0" }}>
         <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="If You've Been Burned by Bad Outsourcing, You're Not Alone" subtitle="These are the three most common complaints we hear from clients who switched to VA Philippines." titleColor={NAVY} />
+          <SectionHeading title="If You've Been Burned by Bad Outsourcing, You're Not Alone" subtitle="These are the three most common complaints we hear from clients who switched to Virtual Assistants Philippines." titleColor={NAVY} />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {painPoints.map((p) => (
               <div key={p.title} className="bg-white rounded-2xl p-8 text-center shadow-sm border border-gray-100">
@@ -140,7 +140,7 @@ export default function VariantC() {
       {/* Quality Pillars */}
       <section id="quality" className="py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="How We Guarantee Quality at $4–$8/hr" subtitle="Four pillars that separate VA Philippines from every other VA service." titleColor={NAVY} />
+          <SectionHeading title="How We Guarantee Quality at $4–$8/hr" subtitle="Four pillars that separate Virtual Assistants Philippines from every other VA service." titleColor={NAVY} />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {pillars.map((p) => (
               <div key={p.title} className="rounded-2xl p-6 border-2 hover:shadow-md transition-shadow" style={{ borderColor: `${NAVY}15` }}>
@@ -171,7 +171,7 @@ export default function VariantC() {
       {/* Testimonials */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <SectionHeading title="Why Teams Trust VA Philippines" titleColor={NAVY} />
+          <SectionHeading title="Why Teams Trust Virtual Assistants Philippines" titleColor={NAVY} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {testimonials.map((t) => (
               <TestimonialCard key={t.name} quote={t.quote} name={t.name} role={t.role} result={t.result} accentColor={NAVY} />
@@ -192,7 +192,7 @@ export default function VariantC() {
       <UrgencyBanner text="Our VAs maintain a 98.7% accuracy rate — experience the difference with a free consultation" bgColor={GOLD} textColor="#0B1D51" />
 
       {/* Contact Form */}
-      <ContactForm accentColor={NAVY} heading="Experience the VA Philippines Quality Standard" subheading="Book a free consultation and see why teams switch to VA Philippines after trying other VA services." buttonText="Book My Free Consultation" />
+      <ContactForm accentColor={NAVY} heading="Experience the Virtual Assistants Philippines Quality Standard" subheading="Book a free consultation and see why teams switch to Virtual Assistants Philippines after trying other VA services." buttonText="Book My Free Consultation" />
     </>
   );
 }
