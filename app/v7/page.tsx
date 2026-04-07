@@ -59,32 +59,36 @@ const faqs = [
 export default function VariantG() {
   return (
     <>
-      {/* Hero — Clean, form-focused */}
+      {/* Hero — Headline on top, form + image side by side */}
       <section className="bg-white">
-        <div className="max-w-7xl mx-auto px-6 py-20 md:py-28">
-          <div className="flex flex-col md:flex-row items-start gap-16">
-            <div className="flex-1 space-y-6">
-              <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-bold tracking-tight leading-[1.1]" style={{ color: DARK }}>
-                Hire top remote talent — fast
-              </h1>
-              <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Full-time remote staff from <strong className="text-gray-900">$4/hr</strong>. Hire in days, not months. Cancel anytime.
-              </p>
-              <div className="flex flex-wrap gap-3 text-sm text-gray-500">
-                <span className="flex items-center gap-1.5">
-                  <svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
-                  4.9 Stars from 1,800+ Reviews
-                </span>
-              </div>
+        <div className="max-w-7xl mx-auto px-6 pt-20 md:pt-28 pb-12">
+          {/* Headline block — full width */}
+          <div className="max-w-3xl mb-10">
+            <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-bold tracking-tight leading-[1.1] mb-4" style={{ color: DARK }}>
+              Hire top remote talent — fast
+            </h1>
+            <p className="text-xl text-gray-600 leading-relaxed">
+              Full-time remote staff from <strong className="text-gray-900">$4/hr</strong>. Hire in days, not months. Cancel anytime.
+            </p>
+            <div className="flex flex-wrap gap-3 text-sm text-gray-500 mt-4">
+              <span className="flex items-center gap-1.5">
+                <svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+                4.9 Stars from 1,800+ Reviews
+              </span>
+            </div>
+          </div>
 
-              <div className="bg-white rounded-2xl shadow-lg p-6 border border-gray-100 max-w-md">
+          {/* Form + Image — side by side */}
+          <div className="flex flex-col md:flex-row items-stretch gap-8">
+            <div className="md:w-[45%]">
+              <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 h-full flex flex-col justify-center">
                 <HubSpotEmbed containerId="hubspot-hero-form" />
-                <p className="text-xs text-gray-400 mt-3 text-center">Free consultation · No commitment · Response within 24hrs</p>
+                <p className="text-xs text-gray-400 mt-4 text-center">Free consultation · No commitment · Response within 24hrs</p>
               </div>
             </div>
-            <div className="flex-1">
-              <div className="w-full aspect-[3/4] max-w-lg mx-auto rounded-3xl overflow-hidden relative shadow-2xl">
-                <Image src="/images/hero-v3.jpg" alt="Professional virtual assistant" fill className="object-cover object-top" sizes="(max-width: 768px) 100vw, 50vw" priority />
+            <div className="md:w-[55%]">
+              <div className="w-full h-full min-h-[400px] rounded-3xl overflow-hidden relative shadow-2xl">
+                <Image src="/images/hero-v3.jpg" alt="Professional virtual assistant" fill className="object-cover object-top" sizes="(max-width: 768px) 100vw, 55vw" priority />
               </div>
             </div>
           </div>
