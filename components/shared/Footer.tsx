@@ -30,6 +30,7 @@ export default function Footer() {
               <li><Link href="/v4" className="hover:text-white transition-colors">Hire a VA</Link></li>
               <li><Link href="/v5" className="hover:text-white transition-colors">For Small Business</Link></li>
               <li><Link href="/v6" className="hover:text-white transition-colors">Executive Assistants</Link></li>
+              <li><Link href="/v7" className="hover:text-white transition-colors">Hire Remote Talent</Link></li>
             </ul>
           </div>
           <div>

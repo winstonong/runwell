@@ -7,6 +7,7 @@ const variants = [
   { href: "/v4", label: "D", title: "Hire a VA", description: "Pre-vetted VAs ready to start in 48 hours from $4/hr", color: "#2563EB" },
   { href: "/v5", label: "E", title: "Small Business", description: "Affordable VA support designed for small business owners", color: "#16A34A" },
   { href: "/v6", label: "F", title: "Executive Assistant", description: "Premium executive support at a fraction of the cost", color: "#1F2937" },
+  { href: "/v7", label: "G", title: "Hire Remote Talent", description: "Authority-driven page with social proof, reviews, and inline form", color: "#0066CC" },
 ];
 
 export default function Home() {
