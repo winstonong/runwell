@@ -10,7 +10,7 @@ const GREEN = "#00A86B";
 /* ─── Data ─── */
 
 const stats = [
-  { value: "1,200+", label: "Businesses Served" },
+  { value: "3,000+", label: "Businesses Served" },
   { value: "$4–$8/hr", label: "All-In, No Hidden Fees" },
   { value: "<7 Days", label: "To Your First Hire" },
   { value: "97%", label: "Client Retention Rate" },
@@ -133,7 +133,7 @@ export default function VariantG() {
                   <span className="ml-1">4.9/5 from 1,800+ reviews</span>
                 </div>
                 <span className="hidden md:inline text-blue-200/30">|</span>
-                <span className="text-sm text-blue-200/70">1,200+ businesses served</span>
+                <span className="text-sm text-blue-200/70">3,000+ businesses served</span>
               </div>
             </div>
 
