@@ -186,6 +186,15 @@ export default function VariantG() {
         </div>
       </section>
 
+      {/* ════════ HERO IMAGE BREAK ════════ */}
+      <section className="bg-white">
+        <div className="max-w-7xl mx-auto px-6 py-4">
+          <div className="w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden relative">
+            <Image src="/images/hero-v3.jpg" alt="Professional virtual assistant at work" fill className="object-cover object-top" sizes="100vw" />
+          </div>
+        </div>
+      </section>
+
       {/* ════════ HOW IT WORKS ════════ */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
