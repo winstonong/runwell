@@ -163,7 +163,7 @@ export default function VariantH() {
           priority
         />
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0B1437]/80 via-[#0B1437]/65 to-[#0B1437]/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0B1437]/75 via-[#0B1437]/50 to-[#0B1437]/25" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left — copy */}
