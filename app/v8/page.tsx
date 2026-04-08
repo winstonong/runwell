@@ -152,41 +152,53 @@ export default function VariantH() {
     <div className="min-h-screen" style={{ fontFamily: "'Inter', system-ui, sans-serif" }}>
 
       {/* ════════ HERO ════════ */}
-      <section className="relative overflow-hidden pt-32 pb-20 lg:pt-44 lg:pb-32" style={{ backgroundColor: C.surface }}>
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <section className="relative overflow-hidden pt-32 pb-20 lg:pt-44 lg:pb-32">
+        {/* Background image */}
+        <Image
+          src="/images/hero-v2.jpg"
+          alt=""
+          fill
+          className="object-cover object-top"
+          sizes="100vw"
+          priority
+        />
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0B1437]/92 via-[#0B1437]/85 to-[#0B1437]/70" />
+
+        <div className="relative z-10 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left — copy */}
           <div className="animate-fadeIn">
-            <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full mb-6" style={{ backgroundColor: `${C.primaryContainer}15` }}>
+            <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full mb-6 bg-white/10 backdrop-blur-sm">
               <span className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: "#00A86B" }} />
-              <span className="text-sm font-bold uppercase tracking-wider" style={{ color: C.primary }}>Top 1% Philippine Talent</span>
+              <span className="text-sm font-bold uppercase tracking-wider text-blue-200">Top 1% Philippine Talent</span>
             </div>
 
-            <h1 className="text-5xl lg:text-7xl font-black leading-[1.08] mb-6 tracking-tighter" style={{ color: C.onSurface }}>
-              Full-time remote staff from <span style={{ color: C.primary }}>$4/hr</span>
+            <h1 className="text-5xl lg:text-7xl font-black leading-[1.08] mb-6 tracking-tighter text-white">
+              Full-time remote staff from <span className="text-blue-300">$4/hr</span>
             </h1>
 
-            <p className="text-xl leading-relaxed mb-8 max-w-xl font-medium" style={{ color: C.onSurfaceVariant }}>
+            <p className="text-xl leading-relaxed mb-8 max-w-xl font-medium text-blue-100/80">
               Scale your business with high-level executive support, precision finance, and expert sales assistance from elite Philippine virtual professionals.
             </p>
 
             <div className="flex flex-wrap items-center gap-10 mb-4">
               <div className="flex flex-col">
-                <span className="text-3xl font-black" style={{ color: C.onSurface }}>3,000+</span>
-                <span className="text-sm font-medium" style={{ color: C.onSurfaceVariant }}>Businesses Served</span>
+                <span className="text-3xl font-black text-white">3,000+</span>
+                <span className="text-sm font-medium text-blue-200/70">Businesses Served</span>
               </div>
-              <div className="h-12 w-px" style={{ backgroundColor: C.surfaceHighest }} />
+              <div className="h-12 w-px bg-white/20" />
               <div className="flex flex-col">
-                <div className="flex items-center mb-1" style={{ color: C.primary }}>
+                <div className="flex items-center mb-1 text-yellow-400">
                   {[...Array(5)].map((_, i) => <StarIcon key={i} className="w-[18px] h-[18px]" />)}
                 </div>
-                <span className="text-sm font-medium" style={{ color: C.onSurfaceVariant }}>4.9/5 Rating (Clutch / Trustpilot)</span>
+                <span className="text-sm font-medium text-blue-200/70">4.9/5 Rating (Clutch / Trustpilot)</span>
               </div>
             </div>
           </div>
 
           {/* Right — form card */}
           <div className="relative z-10 animate-fadeInUp">
-            <div className="p-8 lg:p-10 rounded-[2.5rem]" style={{ backgroundColor: "white", boxShadow: ambientShadow, border: `1px solid ${C.outlineVariant}` }}>
+            <div className="p-8 lg:p-10 rounded-[2.5rem] bg-white/95 backdrop-blur-md" style={{ boxShadow: "0 25px 60px rgba(0,0,0,0.3)" }}>
               <h3 className="text-2xl font-bold mb-2" style={{ color: C.onSurface }}>Book Your Strategy Session</h3>
               <p className="mb-6 font-medium" style={{ color: C.onSurfaceVariant }}>Tell us your hiring needs and get a shortlist of candidates within 48 hours.</p>
               <HubSpotEmbed containerId="hubspot-v8-hero" />
@@ -194,9 +206,6 @@ export default function VariantH() {
                 Risk-free. No credit card required to start.
               </p>
             </div>
-            {/* Decorative blurs */}
-            <div className="absolute -top-12 -right-12 w-48 h-48 rounded-full -z-10 blur-3xl" style={{ backgroundColor: `${C.primary}15` }} />
-            <div className="absolute -bottom-12 -left-12 w-48 h-48 rounded-full -z-10 blur-3xl" style={{ backgroundColor: `${C.primaryContainer}10` }} />
           </div>
         </div>
       </section>
