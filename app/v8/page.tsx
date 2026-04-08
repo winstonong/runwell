@@ -51,7 +51,7 @@ const guarantees = [
 
 const talents = [
   { name: "Maria Santos", role: "Senior Executive Assistant", exp: "6 yrs exp.", img: "/images/hero-v3.jpg" },
-  { name: "David Reyes", role: "Finance & Bookkeeping Lead", exp: "8 yrs exp.", img: "/images/hero-v1.jpg" },
+  { name: "Sofia Reyes", role: "Finance & Bookkeeping Lead", exp: "8 yrs exp.", img: "/images/hero-v1.jpg" },
   { name: "Angela Cruz", role: "Sales & Growth Specialist", exp: "5 yrs exp.", img: "/images/admin.jpg" },
 ];
 
