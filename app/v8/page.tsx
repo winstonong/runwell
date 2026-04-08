@@ -65,23 +65,23 @@ const faqs = [
 
 /* ─── Icons ─── */
 const ShieldIcon = () => (
-  <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+  <svg width={32} height={32} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
   </svg>
 );
 const WalletIcon = () => (
-  <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+  <svg width={32} height={32} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a2.25 2.25 0 00-2.25-2.25H15a3 3 0 110-6h5.25A2.25 2.25 0 0121 6v6zm-3 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm-12.75 0h.008v.008H5.25V12z" />
     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75A2.25 2.25 0 014.5 4.5h15A2.25 2.25 0 0121.75 6.75v10.5A2.25 2.25 0 0119.5 19.5h-15a2.25 2.25 0 01-2.25-2.25V6.75z" />
   </svg>
 );
 const RocketIcon = () => (
-  <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+  <svg width={32} height={32} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
   </svg>
 );
 const HeadsetIcon = () => (
-  <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+  <svg width={32} height={32} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
   </svg>
 );
@@ -97,13 +97,13 @@ const StarIcon = ({ size = 18 }: { size?: number }) => (
 );
 
 const CheckIcon = () => (
-  <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg width={20} height={20} style={{ flexShrink: 0 }} fill="none" stroke="#34D399" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
   </svg>
 );
 
 const ArrowIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg width={16} height={16} fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
   </svg>
 );
@@ -233,8 +233,9 @@ export default function VariantH() {
                   style={{ backgroundColor: "white", boxShadow: ambientShadow }}
                 >
                   <div
-                    className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110"
+                    className="rounded-2xl flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110"
                     style={{
+                      width: 64, height: 64,
                       backgroundColor: isAlt ? `${C.primaryContainer}12` : `${C.primaryContainer}18`,
                       color: isAlt ? C.onSurfaceVariant : C.primary,
                     }}
@@ -267,28 +268,43 @@ export default function VariantH() {
             </p>
           </div>
 
-          <div className="rounded-[2.5rem] overflow-hidden" style={{ backgroundColor: "white", boxShadow: ambientShadow, border: `1px solid ${C.outlineVariant}` }}>
-            {/* Header */}
+          {/* Desktop table */}
+          <div className="hidden md:block rounded-[2.5rem] overflow-hidden" style={{ backgroundColor: "white", boxShadow: ambientShadow, border: `1px solid ${C.outlineVariant}` }}>
             <div className="grid grid-cols-4" style={{ borderBottom: `1px solid ${C.surfaceHigh}` }}>
               <div className="p-6 lg:p-8 font-bold text-xs uppercase tracking-widest" style={{ color: C.onSurfaceVariant }}>Comparison</div>
               <div className="p-6 lg:p-8 font-bold text-center text-sm" style={{ backgroundColor: `${C.surfaceLow}80` }}>Local Employee</div>
               <div className="p-6 lg:p-8 font-bold text-center text-sm" style={{ backgroundColor: C.surfaceLow }}>Freelancer</div>
-              <div className="p-6 lg:p-8 font-bold text-center text-sm text-white" style={{ background: gradient }}>
-                Virtual Assistants Philippines
-              </div>
+              <div className="p-6 lg:p-8 font-bold text-center text-sm text-white" style={{ background: gradient }}>Us</div>
             </div>
-
-            {/* Rows */}
             {comparisonData.map((row, i) => (
-              <div
-                key={row.feature}
-                className="grid grid-cols-4 items-center"
-                style={{ borderBottom: i < comparisonData.length - 1 ? `1px solid ${C.surfaceHigh}` : "none" }}
-              >
+              <div key={row.feature} className="grid grid-cols-4 items-center" style={{ borderBottom: i < comparisonData.length - 1 ? `1px solid ${C.surfaceHigh}` : "none" }}>
                 <div className="p-6 lg:p-8 font-bold" style={{ color: C.onSurface }}>{row.feature}</div>
                 <div className="p-6 lg:p-8 text-center font-medium" style={{ color: C.onSurfaceVariant }}>{row.local}</div>
                 <div className="p-6 lg:p-8 text-center font-medium" style={{ color: C.onSurfaceVariant }}>{row.freelance}</div>
                 <div className="p-6 lg:p-8 text-center font-black text-lg" style={{ color: C.primary }}>{row.us}</div>
+              </div>
+            ))}
+          </div>
+
+          {/* Mobile cards */}
+          <div className="md:hidden space-y-3">
+            {comparisonData.map((row) => (
+              <div key={row.feature} className="rounded-2xl p-4" style={{ backgroundColor: "white", border: `1px solid ${C.outlineVariant}` }}>
+                <p className="font-bold text-sm mb-3" style={{ color: C.onSurface }}>{row.feature}</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs font-bold text-white px-2 py-0.5 rounded" style={{ background: gradient }}>Us</span>
+                    <span className="text-sm font-black" style={{ color: C.primary }}>{row.us}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs font-medium" style={{ color: C.onSurfaceVariant }}>Local Employee</span>
+                    <span className="text-sm font-medium" style={{ color: C.onSurfaceVariant }}>{row.local}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-xs font-medium" style={{ color: C.onSurfaceVariant }}>Freelancer</span>
+                    <span className="text-sm font-medium" style={{ color: C.onSurfaceVariant }}>{row.freelance}</span>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -360,17 +376,17 @@ export default function VariantH() {
                     <div className="mb-4 text-white">
                       {g.icon === "shield-check" && <ShieldIcon />}
                       {g.icon === "refresh" && (
-                        <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                        <svg width={32} height={32} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                         </svg>
                       )}
                       {g.icon === "lock-open" && (
-                        <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                        <svg width={32} height={32} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
                         </svg>
                       )}
                       {g.icon === "receipt" && (
-                        <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                        <svg width={32} height={32} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M9 14.25l6-6m4.5-3.493V21.75l-3.75-1.5-3.75 1.5-3.75-1.5-3.75 1.5V4.757c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0c1.1.128 1.907 1.077 1.907 2.185zM9.75 9h.008v.008H9.75V9zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm4.125 4.5h.008v.008h-.008V13.5zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                         </svg>
                       )}
