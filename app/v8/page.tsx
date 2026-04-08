@@ -155,7 +155,7 @@ export default function VariantH() {
       <section className="relative overflow-hidden pt-32 pb-20 lg:pt-44 lg:pb-32">
         {/* Background image */}
         <Image
-          src="/images/hero-v1.jpg"
+          src="/images/hero-office.jpg"
           alt=""
           fill
           className="object-cover object-top"
