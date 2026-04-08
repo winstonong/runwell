@@ -269,7 +269,7 @@ export default function VariantH() {
           </div>
 
           {/* Desktop table */}
-          <div className="hidden md:block rounded-[2.5rem] overflow-hidden" style={{ backgroundColor: "white", boxShadow: ambientShadow, border: `1px solid ${C.outlineVariant}` }}>
+          <div className="v8-desktop-only rounded-[2.5rem] overflow-hidden" style={{ backgroundColor: "white", boxShadow: ambientShadow, border: `1px solid ${C.outlineVariant}` }}>
             <div className="grid grid-cols-4" style={{ borderBottom: `1px solid ${C.surfaceHigh}` }}>
               <div className="p-6 lg:p-8 font-bold text-xs uppercase tracking-widest" style={{ color: C.onSurfaceVariant }}>Comparison</div>
               <div className="p-6 lg:p-8 font-bold text-center text-sm" style={{ backgroundColor: `${C.surfaceLow}80` }}>Local Employee</div>
@@ -287,7 +287,7 @@ export default function VariantH() {
           </div>
 
           {/* Mobile cards */}
-          <div className="md:hidden space-y-3">
+          <div className="v8-mobile-only space-y-3">
             {comparisonData.map((row) => (
               <div key={row.feature} className="rounded-2xl p-4" style={{ backgroundColor: "white", border: `1px solid ${C.outlineVariant}` }}>
                 <p className="font-bold text-sm mb-3" style={{ color: C.onSurface }}>{row.feature}</p>
@@ -519,6 +519,12 @@ export default function VariantH() {
         }
         .animate-fadeIn { animation: fadeIn 0.6s ease-out both; }
         .animate-fadeInUp { animation: fadeInUp 0.6s ease-out 0.2s both; }
+        .v8-desktop-only { display: none; }
+        .v8-mobile-only { display: block; }
+        @media (min-width: 768px) {
+          .v8-desktop-only { display: block; }
+          .v8-mobile-only { display: none; }
+        }
       `}} />
     </div>
   );

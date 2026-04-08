@@ -234,7 +234,7 @@ export default function VariantG() {
           </div>
 
           {/* Desktop table */}
-          <div className="hidden md:block bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+          <div className="v7-desktop-only bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
             <div className="grid grid-cols-4 text-center text-sm font-semibold border-b border-gray-100">
               <div className="p-4 text-left text-gray-500" />
               <div className="p-4 text-white" style={{ backgroundColor: PRIMARY }}>Us</div>
@@ -258,7 +258,7 @@ export default function VariantG() {
           </div>
 
           {/* Mobile comparison cards */}
-          <div className="md:hidden space-y-3">
+          <div className="v7-mobile-only space-y-3">
             {comparison.map((row) => (
               <div key={row.task} className="bg-white rounded-xl border border-gray-100 p-4">
                 <p className="font-semibold text-gray-900 text-sm mb-3">{row.task}</p>

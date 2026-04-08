@@ -34,3 +34,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading), system-ui, sans-serif;
 }
+
+/* Responsive show/hide for comparison tables */
+.v7-desktop-only, .v8-desktop-only { display: none; }
+.v7-mobile-only, .v8-mobile-only { display: block; }
+@media (min-width: 768px) {
+  .v7-desktop-only, .v8-desktop-only { display: block; }
+  .v7-mobile-only, .v8-mobile-only { display: none; }
+}
